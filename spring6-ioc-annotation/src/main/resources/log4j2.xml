@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="info">
+    <loggers>
+        <!-- 设置根日志级别为 DEBUG -->
+        <root level="debug">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="File"/>
+        </root>
+    </loggers>
+    <appenders>
+        <!-- 定义日志输出到控制台 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+        </Console>
+
+        <!-- 定义日志输出到文件 -->
+        <File name="File" fileName="/Users/nico/Downloads/test.log" append="False">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n"/>
+        </File>
+    </appenders>
+
+
+</configuration>
