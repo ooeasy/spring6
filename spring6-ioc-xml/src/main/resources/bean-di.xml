@@ -5,7 +5,7 @@
     <!--set方法注入-->
     <bean id="book" class="asia.zzu.spring6.spring6.ioc.xml.di.Book">
         <property name="auther" value="vcj"></property>
-        <property name="bname" value="auther"></property>
+        <property name="bname" value="Nature"></property>
     </bean>
     <!--构造器注入-->
     <bean id="book1" class="asia.zzu.spring6.spring6.ioc.xml.di.Book">

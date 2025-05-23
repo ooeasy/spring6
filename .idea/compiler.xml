@@ -9,7 +9,6 @@
         <module name="spring-jdbc-tx" />
         <module name="spring6-ioc-xml" />
         <module name="asiazzu-spring" />
-        <module name="spring6" />
         <module name="spring-aop" />
         <module name="spring-first" />
         <module name="spring6-reflect" />

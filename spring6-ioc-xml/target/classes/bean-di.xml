@@ -3,12 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--set方法注入-->
-    <bean id="book" class="asia.zzu.spring6.ioc.xml.di.Book">
+    <bean id="book" class="asia.zzu.spring6.spring6.ioc.xml.di.Book">
         <property name="auther" value="vcj"></property>
-        <property name="bname" value="auther"></property>
+        <property name="bname" value="Nature"></property>
     </bean>
     <!--构造器注入-->
-    <bean id="book1" class="asia.zzu.spring6.ioc.xml.di.Book">
+    <bean id="book1" class="asia.zzu.spring6.spring6.ioc.xml.di.Book">
         <constructor-arg name="bname" value="Java"></constructor-arg>
         <constructor-arg name="auther" value="vcj"></constructor-arg>
     </bean>

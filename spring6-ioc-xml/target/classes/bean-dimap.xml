@@ -9,19 +9,19 @@
         3、在学生bean注入map集合类型属性
 
     -->
-    <bean id="teacher1" class=" asia.zzu.spring6.ioc.xml.dimap.Teacher">
+    <bean id="teacher1" class=" asia.zzu.spring6.spring6.ioc.xml.dimap.Teacher">
         <!--注入普通类型属性-->
         <property name="teacherId" value="10010"></property>
         <property name="teacherName" value="白老师"></property>
 
     </bean>
-    <bean id="teacher2" class=" asia.zzu.spring6.ioc.xml.dimap.Teacher">
+    <bean id="teacher2" class=" asia.zzu.spring6.spring6.ioc.xml.dimap.Teacher">
         <!--注入普通类型属性-->
         <property name="teacherId" value="10086"></property>
         <property name="teacherName" value="柴老师"></property>
 
     </bean>
-    <bean id="student" class=" asia.zzu.spring6.ioc.xml.dimap.Student">
+    <bean id="student" class=" asia.zzu.spring6.spring6.ioc.xml.dimap.Student">
         <!--注入普通类型属性-->
         <property name="sid" value="410"></property>
         <property name="sname" value="朱文杰"></property>
@@ -30,17 +30,13 @@
             <map>
                 <entry>
                     <key>
-                        <value>
-                            10010
-                        </value>
+                        <value type="java.lang.String">10010</value>
                     </key>
                     <ref bean="teacher1"></ref>
                 </entry>
                 <entry>
                     <key>
-                        <value>
-                            10086
-                        </value>
+                        <value>10086</value>
                     </key>
                     <ref bean="teacher2"></ref>
                 </entry>

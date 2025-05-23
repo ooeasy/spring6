@@ -30,17 +30,13 @@
             <map>
                 <entry>
                     <key>
-                        <value>
-                            10010
-                        </value>
+                        <value type="java.lang.String">10010</value>
                     </key>
                     <ref bean="teacher1"></ref>
                 </entry>
                 <entry>
                     <key>
-                        <value>
-                            10086
-                        </value>
+                        <value>10086</value>
                     </key>
                     <ref bean="teacher2"></ref>
                 </entry>

@@ -13,9 +13,9 @@ public class Student {
     private String sname;
 
     public void run() {
-        System.out.println("学生编号：" + sid + "学生名称：" + sname);
+        System.out.println("学生编号：" + sid + "   学生名称：" + sname);
+        //teacherMap.forEach((s, teacher) -> System.out.println(s + "==>" + teacher));
         System.out.println(teacherMap);
-
     }
 
     public void setSid(String sid) {
@@ -35,11 +35,11 @@ public class Student {
         this.sname = sname;
     }
 
-    public Student(Map<String, Teacher> teacherMap, String sid, String sname) {
-        this.teacherMap = teacherMap;
-        this.sid = sid;
-        this.sname = sname;
-    }
+//    public Student(Map<String, Teacher> teacherMap, String sid, String sname) {
+//        this.teacherMap = teacherMap;
+//        this.sid = sid;
+//        this.sname = sname;
+//    }
 
     public Student() {
     }
